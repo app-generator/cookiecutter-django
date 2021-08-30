@@ -1,0 +1,14 @@
+{
+    "project_name": "Django Seed project",
+    "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+    "description": "A simple Django project",
+    "author_name": "AppSeed",
+    "domain_name": "example.com",
+    "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@example.com",
+    "version": "0.0.1",
+    "_copy_without_render": [
+        "*.html",
+        "*.css",
+        "*.scss"
+    ]
+}
