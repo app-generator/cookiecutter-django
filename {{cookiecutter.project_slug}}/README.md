@@ -1,8 +1,8 @@
-# [Django Dashboard Boilerplate](https://appseed.us/boilerplate-code/django-dashboard)
+# Cookiecutter Django
 
-> Template [boilerplate code](https://appseed.us/boilerplate-code) used by [AppSeed](https://appseed.us) to generate simple admin dashboards coded in [Django](https://www.djangoproject.com/) - Features
+> Admin Dashboard generated in Django Framework on top of Volt Template, a modern Bootstrap 5 UI Kit - Features:
 
-- UI Kit: **Datta Able Dashboard** (Lite Version) provided by **CodedThemes**
+- UI Kit: **Volt Dashboard** (Lite Version) Bootstrap 5 design provided by **Themesberg**
 - SQLite Database, Django Native ORM
 - Modular design, clean codebase
 - Session-Based Authentication, Forms validation
@@ -13,34 +13,24 @@
 
 > Links
 
-- [Boierplate Django Dashboard](https://appseed.us/boilerplate-code/django-dashboard) - Product page
-- [Boierplate Django Dashboard - Demo](https://boilerplate-code-django-dashboard.appseed.us/) - LIVE Demo
-- [Boierplate Django Dashboard - Docs](https://docs.appseed.us/boilerplate-code/django-dashboard/) - Documentation
+- [Django Bootstrap 5 Volt](https://appseed.us/admin-dashboards/django-dashboard-volt) - product page
+- [Django Bootstrap 5 Volt](https://django-volt-dashboard.appseed-srv1.com/) - LIVE deployment
 
 <br />
 
-## Want more? Go PRO!
-
-PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
-
-| [Django Datta PRO](https://appseed.us/admin-dashboards/django-dashboard-dattaable-pro) | [Django Material PRO](https://appseed.us/admin-dashboards/django-dashboard-material-pro) | [Django Volt PRO](https://appseed.us/admin-dashboards/django-dashboard-volt-pro) |
-| --- | --- | --- |
-| [![Django Datta PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-dattaable-pro/master/media/django-dashboard-dattaable-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-dattaable-pro) | [![Django Material PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-material-pro/master/media/django-dashboard-material-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-material-pro) | [![Django Volt PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-volt-pro/master/media/django-dashboard-volt-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-volt-pro)
-
-<br />
-<br />
-
-![Boierplate Code Django Dashboard - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/boilerplate-code-django-dashboard/master/media/boilerplate-code-django-dashboard-screen.png)
+![Django Bootstrap 5 Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-volt/master/media/django-dashboard-volt-intro.gif)
 
 <br />
 
 ## How to use it
 
+Change the directory inside the source code 
+
+<br />
+
+> **Step #1** - Create a virtual environment 
+
 ```bash
-$ # Get the code
-$ git clone https://github.com/app-generator/boilerplate-code-django-dashboard.git
-$ cd boilerplate-code-django-dashboard
-$
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
 $ source env/bin/activate
@@ -48,21 +38,39 @@ $
 $ # Virtualenv modules installation (Windows based systems)
 $ # virtualenv env
 $ # .\env\Scripts\activate
-$
+```
+
+<br />
+
+> **Step #2** - Install Depenedencies 
+
+```bash
 $ # Install modules - SQLite Storage
 $ pip3 install -r requirements.txt
-$
+```
+
+<br />
+
+> **Step #3** - Migrate Database 
+
+```bash
 $ # Create tables
 $ python manage.py makemigrations
 $ python manage.py migrate
-$
+```
+
+<br />
+
+> **Step #4** - Migrate Database 
+
+```bash
 $ # Start the application (development mode)
 $ python manage.py runserver # default port 8000
 $
 $ # Start the app - custom port
 $ # python manage.py runserver 0.0.0.0:<your_port>
 $
-$ # Access the web app in browser: http://127.0.0.1:8000/
+$ # Access the web app in the browser: http://127.0.0.1:8000/
 ```
 
 > Note: To use the app, please access the registration page and create a new user. After authentication, the app will unlock the private pages.
@@ -185,14 +193,7 @@ The app is provided with a basic configuration to be executed in [Docker](https:
 ### [Docker](https://www.docker.com/) execution
 ---
 
-The application can be easily executed in a docker container. The steps:
-
-> Get the code
-
-```bash
-$ git clone https://github.com/app-generator/boilerplate-code-django-dashboard.git
-$ cd boilerplate-code-django-dashboard
-```
+Steps to execute the app in a Docker container:
 
 > Start the app in Docker
 
@@ -266,4 +267,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Django Dashboard Boilerplate](https://appseed.us/boilerplate-code/django-dashboard) - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+Cookiecutter Django - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
