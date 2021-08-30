@@ -71,6 +71,8 @@ $ # Start the application (development mode)
 $ pip3 install appseed-shell
 ```
 
+<br />
+
 > **Step #2** - Launch the Python shell and generate the product
 
 ```python
