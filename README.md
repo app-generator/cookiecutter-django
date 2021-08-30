@@ -77,7 +77,6 @@ $ pip3 install appseed-shell
 
 ```python
 $ python
->>> 
 >>> from appseed_shell import generate_django
 >>> generate_django()
 ```
