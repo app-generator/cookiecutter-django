@@ -11,6 +11,13 @@ Open-source `cookiecutter` template built on top of a simple Django codebase wit
 
 <br />
 
+> Project Customization:
+
+- Project information: `name`, `author`, `email`
+- Database Engine: `SQLite`, `MySql` or `PostgreSql` 
+
+<br />
+
 > Links
 
 - [Django Bootstrap 5 Volt](https://appseed.us/admin-dashboards/django-dashboard-volt) - product page
