@@ -1,6 +1,6 @@
-# Cookiecutter Django
+# {{cookiecutter.project_name}}
 
-> Admin Dashboard generated in Django Framework on top of Volt Template, a modern Bootstrap 5 UI Kit - Features:
+> {{cookiecutter.description}} - Features:
 
 - UI Kit: **Volt Dashboard** (Lite Version) Bootstrap 5 design provided by **Themesberg**
 - SQLite Database, Django Native ORM
@@ -267,4 +267,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-Cookiecutter Django - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+{{cookiecutter.project_name}} - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
