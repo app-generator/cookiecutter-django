@@ -6,11 +6,6 @@
     "domain_name": "example.com",
     "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@example.com",
     "version": "0.0.1",
-    "_copy_without_render": [
-        "*.html",
-        "*.css",
-        "*.scss"
-    ],
     "database": [
         "sqlite3",
         "mysql",
@@ -18,5 +13,10 @@
     ],
     "database_name": "appseed_django",
     "database_user": "appseed_user",
-    "database_pass": "Pass1234"
+    "database_pass": "Pass1234",
+    "_copy_without_render": [
+        "*.html",
+        "*.css",
+        "*.scss"
+    ]
 }
