@@ -77,7 +77,6 @@ $ pip3 install appseed-shell
 
 ```python
 $ python
->>> 
 >>> from appseed_shell import generate_django
 >>> generate_django()
 ```
@@ -91,7 +90,7 @@ The project is generated in the current working directory.
 For more resources and support please access: 
 
 - [AppSeed](https://appseed.us) - For more starters and support
-- [AppSeed Shell](https://github.com/app-generator/appseed-shell-py) - source code
+- [AppSeed Shell](https://github.com/app-generator/appseed-shell-py) - source code (MIT License)
 
 <br />
 
