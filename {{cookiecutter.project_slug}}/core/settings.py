@@ -72,8 +72,21 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME'  : 'db.sqlite3',
+        'ENGINE': 'django.db.backends.{{cookiecutter.database}}',
+{% if cookiecutter.database == 'sqlite3' %}        
+        'NAME': '{{cookiecutter.database_name}}.sqlite3',
+{% else %}
+        'NAME': '{{cookiecutter.database_name}}',
+        'USER': '{{cookiecutter.database_user}}',
+        'PASSWORD': '{{cookiecutter.database_pass}}',
+        'HOST': 'localhost',
+{% endif %}
+{% if cookiecutter.database == 'mysql' %}        
+        'PORT': '3306',
+{% endif %}    
+{% if cookiecutter.database == 'postgresql' %}        
+        'PORT': '5432',
+{% endif %}
     }
 }
 

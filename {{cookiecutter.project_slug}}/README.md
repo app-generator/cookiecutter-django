@@ -28,7 +28,7 @@ Change the directory inside the source code
 
 <br />
 
-> **Step #1** - Create a virtual environment 
+> **Create a virtual environment** 
 
 ```bash
 $ # Virtualenv modules installation (Unix based systems)
@@ -42,7 +42,7 @@ $ # .\env\Scripts\activate
 
 <br />
 
-> **Step #2** - Install Depenedencies 
+> **Install Depenedencies**
 
 ```bash
 $ # Install modules - SQLite Storage
@@ -50,8 +50,22 @@ $ pip3 install -r requirements.txt
 ```
 
 <br />
+{% if cookiecutter.database != 'sqlite3' %}
 
-> **Step #3** - Migrate Database 
+> **Set up Database**
+
+Create a new database using credentials: 
+
+- Database Name: `{{cookiecutter.database_name}}`
+- Database User: `{{cookiecutter.database_user}}`
+- Password: to match the value saved in `core/settings.py` -> `DATABASES` section
+
+Make sure the user has full privilegies (read, write, create tables).
+
+<br />
+{% endif %}
+
+> **Migrate Database** (create tables)
 
 ```bash
 $ # Create tables

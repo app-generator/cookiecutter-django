@@ -10,5 +10,13 @@
         "*.html",
         "*.css",
         "*.scss"
-    ]
+    ],
+    "database": [
+        "sqlite3",
+        "mysql",
+        "postgresql"
+    ],
+    "database_name": "appseed_django",
+    "database_user": "appseed_user",
+    "database_pass": "Pass1234"
 }

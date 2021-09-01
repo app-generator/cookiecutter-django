@@ -9,3 +9,9 @@ dj-database-url
 python-decouple
 gunicorn
 whitenoise
+{% if cookiecutter.database == 'mysql' %}
+mysqlclient
+{% endif %}
+{% if cookiecutter.database == 'postgresql' %}
+psycopg2
+{% endif %}
