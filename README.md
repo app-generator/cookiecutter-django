@@ -2,8 +2,8 @@
 
 Open-source `cookiecutter` template built on top of a simple Django codebase with a Bootstrap 5 design - Features:
 
-- Themeable Codebase: Volt Design, Soft UI, Datta Able
-- SQLite Database, Django Native ORM
+- UI Themes: Volt Design, Soft UI, Datta Able
+- Persistence: SQLite / MySql / PostgreSQL 
 - Modular design, clean codebase
 - Session-Based Authentication, Forms validation
 - Deployment scripts: Docker, Gunicorn / Nginx
