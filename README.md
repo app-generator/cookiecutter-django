@@ -102,4 +102,4 @@ For more resources and support please access:
 <br />
 
 ---
-Cookiecutter Django - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+**Cookiecutter Django** - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
