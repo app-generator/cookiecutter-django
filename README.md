@@ -24,7 +24,7 @@ Open-source `cookiecutter` template built on top of a simple Django codebase wit
 > Links
 
 - [Django Dashboards](https://appseed.us/admin-dashboards/django) - index provided by AppSeed
-- [Open-Source Dashboards](https://appseed.us/admin-dashboards/open-source) - crafted in Flask, Django, React
+- [Open-Source Dashboards](https://appseed.us/admin-dashboards/open-source) - crafted in **Flask**, **Django**, [React](https://appseed.us/apps/react)
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
