@@ -6,6 +6,11 @@
     "domain_name": "example.com",
     "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@example.com",
     "version": "0.0.1",
+    "theme": [
+        "volt",
+        "soft-ui",
+        "datta-able"
+    ],
     "database": [
         "sqlite3",
         "mysql",
