@@ -1,6 +1,6 @@
 # Cookiecutter Django
 
-Open-source `cookiecutter` template built on top of a simple Django codebase with a Bootstrap 5 design - Features:
+Open-source `cookiecutter` template built on top of a simple Django codebase with a modern design - Features:
 
 - UI Themes: Volt Design, Soft UI, Datta Able
 - Persistence: SQLite / MySql / PostgreSQL 
