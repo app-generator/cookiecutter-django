@@ -1,4 +1,12 @@
 
+## [0.0.4] 2021-03-09
+### Improvements
+
+- Integrate Themes: 
+  - [Volt Bootstrap](https://appseed.us/admin-dashboards/django-dashboard-volt)
+  - [Soft UI](https://appseed.us/product/django-soft-ui-dashboard)
+  - [Datta Able](https://appseed.us/admin-dashboards/django-datta-able)  
+
 ## [0.0.3] 2021-01-09
 ### Improvements
 

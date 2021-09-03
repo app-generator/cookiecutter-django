@@ -2,26 +2,30 @@
 
 Open-source `cookiecutter` template built on top of a simple Django codebase with a Bootstrap 5 design - Features:
 
-- UI Kit: **Volt Dashboard** (Lite Version) Bootstrap 5 design provided by **Themesberg**
+- Themeable Codebase: Volt Design, Soft UI, Datta Able
 - SQLite Database, Django Native ORM
 - Modular design, clean codebase
 - Session-Based Authentication, Forms validation
 - Deployment scripts: Docker, Gunicorn / Nginx
-- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
 > Project Customization:
 
 - Project information: `name`, `author`, `email`
-- Database Engine: `SQLite`, `MySql` or `PostgreSql` 
+- Database Engine: `SQLite`, `MySql` or `PostgreSql`
+- UI Themes:
+  - [Volt Bootstrap](https://appseed.us/admin-dashboards/django-dashboard-volt)
+  - [Soft UI](https://appseed.us/product/django-soft-ui-dashboard)
+  - [Datta Able](https://appseed.us/admin-dashboards/django-datta-able)   
 
 <br />
 
 > Links
 
-- [Django Bootstrap 5 Volt](https://appseed.us/admin-dashboards/django-dashboard-volt) - product page
-- [Django Bootstrap 5 Volt](https://django-volt-dashboard.appseed-srv1.com/) - LIVE deployment
+- [Django Dashboards](https://appseed.us/admin-dashboards/django) - index provided by AppSeed
+- [Open-Source Dashboards]https://appseed.us/admin-dashboards/open-source) - crafted in Flask, Django, React
+- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
@@ -54,7 +58,7 @@ $ # .\env\Scripts\activate
 
 ```bash
 $ # Install modules - SQLite Storage
-$ pip3 install cookiecutter
+$ pip3 install -r requirements.txt
 ```
 
 <br />
@@ -64,8 +68,6 @@ $ pip3 install cookiecutter
 ```bash
 $ cookiecutter https://github.com/app-generator/cookiecutter-django.git
 ```
-
-The project is generated in the current working directory. 
 
 <br />
 
@@ -87,8 +89,6 @@ $ python
 >>> from appseed_shell import generate_django
 >>> generate_django()
 ```
-
-The project is generated in the current working directory. 
 
 <br />
 
