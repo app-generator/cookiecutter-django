@@ -102,7 +102,7 @@ $ python manage.py migrate
 
 <br />
 
-> **Step #4** - Migrate Database 
+> **Step #4** - Start the project
 
 ```bash
 $ # Start the application (development mode)
