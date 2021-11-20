@@ -8,7 +8,7 @@
 - Session-Based Authentication, Forms validation
 - Deployment scripts: `Gunicorn` / `Nginx`
 - One-line **Docker** setup
-  - `` 
+  - `docker-compose up --build` 
 
 <br />
 
