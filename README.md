@@ -6,10 +6,9 @@
 - Generated Projects Features:
   - `Up-to-date dependencies`: **Django 3.2.6 LTS**
   - `SCSS` -> `CSS` compilation via **Gulp**   
-  - Persistence: SQLite / MySql / PostgreSQL 
-  - Modular design, clean codebase
-  - Session-Based Authentication, Forms validation
-  - Deployment scripts: `Gunicorn` / `Nginx`
+  - Persistence: `SQLite` / `MySql` / `PostgreSQL`
+  - `Session-Based Authentication`, Forms validation
+  - **Deployment**: `Gunicorn` / `Nginx`
   - One-line **Docker** setup
     - `docker-compose up --build` 
 
