@@ -1,4 +1,11 @@
 
+## [0.0.7] 2021-11-20
+### Improvements
+
+- Remove Default Assets
+  - `apps/static/assets/`{JS/IMG}
+  - `apps/static/templates/`
+
 ## [0.0.6] 2021-11-20
 ### Improvements 
 
