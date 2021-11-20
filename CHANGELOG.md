@@ -1,4 +1,11 @@
 
+## [0.0.5] 2021-11-20
+### Improvements & Fixes
+
+- Bump Codebase: [Django Boilerplate](https://github.com/app-generator/boilerplate-code-django-dashboard) **v2.0.4**
+- Fixes: 
+  - #1 - `./tmp/core/static` Runtime Error
+
 ## [0.0.4] 2021-03-09
 ### Improvements
 
