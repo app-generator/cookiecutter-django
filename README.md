@@ -3,12 +3,15 @@
 **[Django Cookie-Cutter](https://blog.appseed.us/django-cookie-cutter-generator/)** is an open-source `cookiecutter` template built on top of a simple **Django** codebase with a modern design. For newcomers, **Cookiecutter** is a command-line utility that creates projects from project templates and Django is a leading web framework built by experts using a batteries-included concept.
 
 - UI Themes: `Volt Design` / `Soft UI` / `Datta Able` / `Material Dashboard`
-- Persistence: SQLite / MySql / PostgreSQL 
-- Modular design, clean codebase
-- Session-Based Authentication, Forms validation
-- Deployment scripts: `Gunicorn` / `Nginx`
-- One-line **Docker** setup
-  - `docker-compose up --build` 
+- Generated Projects Features:
+  - `Up-to-date dependencies`: **Django 3.2.6 LTS**
+  - `SCSS` -> `CSS` compilation via **Gulp**   
+  - Persistence: SQLite / MySql / PostgreSQL 
+  - Modular design, clean codebase
+  - Session-Based Authentication, Forms validation
+  - Deployment scripts: `Gunicorn` / `Nginx`
+  - One-line **Docker** setup
+    - `docker-compose up --build` 
 
 <br />
 
