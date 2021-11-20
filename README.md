@@ -6,7 +6,9 @@
 - Persistence: SQLite / MySql / PostgreSQL 
 - Modular design, clean codebase
 - Session-Based Authentication, Forms validation
-- Deployment scripts: Docker, Gunicorn / Nginx
+- Deployment scripts: `Gunicorn` / `Nginx`
+- One-line **Docker** setup
+  - `` 
 
 <br />
 
@@ -49,8 +51,7 @@ $ source env/bin/activate
 $
 $ # Virtualenv modules installation (Windows based systems)
 $ # virtualenv env
-$ # .\env\Scripts\activate
-
+$ # .\env\Scripts\activate 
 ```
 
 <br />
