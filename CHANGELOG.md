@@ -1,4 +1,9 @@
 
+## [0.0.6] 2021-11-20
+### Improvements 
+
+- New Theme: [Material Dashboard Bootstrap 5](https://appseed.us/admin-dashboards/django-dashboard-material)
+
 ## [0.0.5] 2021-11-20
 ### Improvements & Fixes
 
