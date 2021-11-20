@@ -79,6 +79,8 @@ $ cookiecutter https://github.com/app-generator/cookiecutter-django.git
 
 ```bash
 $ # Start the application (development mode)
+$ pip3 install cookiecutter
+$ pip3 install GitPython
 $ pip3 install appseed-shell
 ```
 
