@@ -40,7 +40,7 @@
 
 <br />
 
-### **Using cookiecutter**  
+### Using `cookiecutter` tool 
 
 > **Step #1** - Create a virtual environment  
 
@@ -73,12 +73,11 @@ $ cookiecutter https://github.com/app-generator/cookiecutter-django.git
 
 <br />
 
-### Using **appseed-shell** package 
+### Using `appseed-shell` package 
 
-> **Step #1** - Install `appseed-shell` 
+> **Step #1** - Install Dependencies
 
 ```bash
-$ # Start the application (development mode)
 $ pip3 install cookiecutter
 $ pip3 install GitPython
 $ pip3 install appseed-shell
