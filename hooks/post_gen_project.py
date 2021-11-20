@@ -16,15 +16,15 @@ def post_hook():
     try:
 
         print(' *** Copy assets') 
-        fromDirectory = TMP_DIR + "core/static"
-        toDirectory   = "./core/static"
+        fromDirectory = TMP_DIR + "apps/static"
+        toDirectory   = "./apps/static"
 
         copy_tree(fromDirectory, toDirectory)
         print(' ...done')
 
         print(' *** Copy templates') 
-        fromDirectory = TMP_DIR + "core/templates"
-        toDirectory   = "./core/templates"
+        fromDirectory = TMP_DIR + "apps/templates"
+        toDirectory   = "./apps/templates"
 
         copy_tree(fromDirectory, toDirectory)
         print(' ...done')
