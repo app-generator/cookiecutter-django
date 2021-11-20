@@ -11,6 +11,9 @@
 {% if cookiecutter.theme == 'datta-able' %}
 - UI Kit: **Datta Able** (Free Version) design provided by **Themesberg**
 {% endif %} 
+{% if cookiecutter.theme == 'material-dashboard' %}
+- UI Kit: **Material Dashboard** (Free Version) Bootstrap 5 design provided by **Creative-Tim**
+{% endif %}
 
 - Persistance: SQLite, MySql, PostgreSQL
 - Modular design, clean codebase
@@ -33,6 +36,10 @@
 {% if cookiecutter.theme == 'datta-able' %}
 - [Datta Able Django](https://appseed.us/admin-dashboards/django-datta-able) - Product page
 - [Datta Able Django](https://django-datta-able.appseed-srv1.com/) - LIVE deployment
+{% endif %} 
+{% if cookiecutter.theme == 'material-dashboard' %}
+- [Django Dashboard Material](https://appseed.us/admin-dashboards/django-dashboard-material) - product page
+- [Django Dashboard Material](https://django-material-dashboard.appseed-srv1.com/) - LIVE App
 {% endif %} 
 
 <br />
@@ -63,6 +70,9 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 {% endif %}
 {% if cookiecutter.theme == 'datta-able' %}
 ![Django Datta Able - Open-Source Admin Panel Coded in Django.](https://raw.githubusercontent.com/app-generator/django-datta-able/master/media/django-dashboard-dattaable-screen.png)
+{% endif %} 
+{% if cookiecutter.theme == 'material-dashboard' %}
+![Django Dashboard Material Design - Template project provided by AppSeed.](https://user-images.githubusercontent.com/51070104/138584503-5abc6dd3-793f-40ee-8224-82fa121167bc.gif)
 {% endif %} 
 
 <br />

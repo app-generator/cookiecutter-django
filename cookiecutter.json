@@ -9,7 +9,8 @@
     "theme": [
         "volt",
         "soft-ui",
-        "datta-able"
+        "datta-able",
+        "material-dashboard"
     ],
     "database": [
         "sqlite3",

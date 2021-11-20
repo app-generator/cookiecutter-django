@@ -19,6 +19,9 @@ def pre_hook():
         theme = "{{cookiecutter.theme}}"
         repo  = 'https://github.com/app-generator/django-dashboard-volt.git'
 
+        if 'material-dashboard' == theme:
+            repo  = 'https://github.com/app-generator/django-dashboard-material.git'
+
         if 'soft-ui' == theme:
             repo  = 'https://github.com/app-generator/django-soft-ui-dashboard.git'
 
