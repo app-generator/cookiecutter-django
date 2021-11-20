@@ -17,10 +17,10 @@
 - Project information: `name`, `author`, `email`
 - Database Engine: `SQLite`, `MySql` or `PostgreSql`
 - UI Themes:
-  - [Volt Bootstrap](https://appseed.us/admin-dashboards/django-dashboard-volt)
-  - [Soft UI](https://appseed.us/product/django-soft-ui-dashboard)
-  - [Datta Able](https://appseed.us/admin-dashboards/django-datta-able)  
-  - [Material Dashboard](https://appseed.us/admin-dashboards/django-dashboard-material) 
+  - [Volt Bootstrap](https://django-volt-dashboard.appseed-srv1.com/) - LIVE Preview
+  - [Soft UI](https://django-soft-ui-dashboard.appseed-srv1.com/) - LIVE Preview
+  - [Datta Able](https://django-datta-able.appseed-srv1.com/) - LIVE Preview 
+  - [Material Dashboard](https://django-material-dashboard.appseed-srv1.com/) - LIVE Preview
 
 <br />
 
