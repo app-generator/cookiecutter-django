@@ -28,6 +28,9 @@ def pre_hook():
         if 'datta-able' == theme:
             repo  = 'https://github.com/app-generator/django-datta-able.git'
 
+        if 'star-admin' == theme:
+            repo  = 'https://github.com/app-generator/django-star-admin.git'
+
         print(' Cloning theme: <' + theme + '>, REPO: ' + repo )
 
         repo = git.Repo.clone_from( repo, TMP_DIR, branch='master')

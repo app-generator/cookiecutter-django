@@ -10,7 +10,8 @@
         "volt",
         "soft-ui",
         "datta-able",
-        "material-dashboard"
+        "material-dashboard",
+        "star-admin"
     ],
     "database": [
         "sqlite3",
