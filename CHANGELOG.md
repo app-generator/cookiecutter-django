@@ -1,4 +1,9 @@
 
+## [0.0.8] 2021-11-22
+### Improvements 
+
+- New Theme: [Star Admin 2](https://appseed.us/admin-dashboards/django-star-admin)
+
 ## [0.0.7] 2021-11-20
 ### Improvements
 

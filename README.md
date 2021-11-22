@@ -2,7 +2,7 @@
 
 **[Django Cookie-Cutter](https://blog.appseed.us/django-cookie-cutter-generator/)** is an open-source `cookiecutter` template built on top of a simple **Django** codebase with a modern design. For newcomers, **Cookiecutter** is a command-line utility that creates projects from project templates and Django is a leading web framework built by experts using a batteries-included concept.
 
-- UI Themes: `Volt Design` / `Soft UI` / `Datta Able` / `Material Dashboard`
+- UI Themes: `Volt Design` / `Soft UI` / `Datta Able` / `Material Dashboard` / `Star Admin`
 - Generated Projects Features:
   - `Up-to-date dependencies`: **Django 3.2.6 LTS**
   - `SCSS` -> `CSS` compilation via **Gulp**   
@@ -23,6 +23,7 @@
   - LIVE Preview: [Soft UI](https://django-soft-ui-dashboard.appseed-srv1.com/)
   - LIVE Preview: [Datta Able](https://django-datta-able.appseed-srv1.com/)
   - LIVE Preview: [Material Dashboard](https://django-material-dashboard.appseed-srv1.com/)
+  - LIVE Preview: [Star Admin 2](https://django-star-admin.appseed-srv1.com/)
 
 <br />
 
