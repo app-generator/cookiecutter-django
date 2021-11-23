@@ -6,13 +6,16 @@
 - UI Kit: **Volt Dashboard** (Lite Version) Bootstrap 5 design provided by **Themesberg**
 {% endif %}
 {% if cookiecutter.theme == 'soft-ui' %}
-- UI Kit: **Soft UI Dashboard** (Free Version) Bootstrap 5 design provided by **Creative-Tim**
+- UI Kit: **Soft UI Dashboard** (Free Version) Bootstrap 5 design provided by **[Creative-Tim](https://bit.ly/3fKQZaL)**
 {% endif %}
 {% if cookiecutter.theme == 'datta-able' %}
-- UI Kit: **Datta Able** (Free Version) design provided by **Themesberg**
+- UI Kit: **Datta Able** (Free Version) design provided by **[CodedThemes](https://bit.ly/37fF9RT)**
 {% endif %} 
 {% if cookiecutter.theme == 'material-dashboard' %}
-- UI Kit: **Material Dashboard** (Free Version) Bootstrap 5 design provided by **Creative-Tim**
+- UI Kit: **Material Dashboard** (Free Version) Bootstrap 5 design provided by **[Creative-Tim](https://bit.ly/3fKQZaL)**
+{% endif %}
+{% if cookiecutter.theme == 'star-admin' %}
+- UI Kit: **Star Admin 2** (Free Version) by **[BootstrapDash](https://bit.ly/2UTgih5)**
 {% endif %}
 
 - Persistance: SQLite, MySql, PostgreSQL
@@ -40,6 +43,10 @@
 {% if cookiecutter.theme == 'material-dashboard' %}
 - [Django Dashboard Material](https://appseed.us/admin-dashboards/django-dashboard-material) - product page
 - [Django Dashboard Material](https://django-material-dashboard.appseed-srv1.com/) - LIVE App
+{% endif %} 
+{% if cookiecutter.theme == 'star-admin' %}
+- [Star Admin Django](https://appseed.us/admin-dashboards/django-star-admin) - product page
+- [Star Admin Django](https://django-star-admin.appseed-srv1.com/) - LIVE deployment
 {% endif %} 
 
 <br />
@@ -73,6 +80,9 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 {% endif %} 
 {% if cookiecutter.theme == 'material-dashboard' %}
 ![Django Dashboard Material Design - Template project provided by AppSeed.](https://user-images.githubusercontent.com/51070104/138584503-5abc6dd3-793f-40ee-8224-82fa121167bc.gif)
+{% endif %} 
+{% if cookiecutter.theme == 'star-admin' %}
+![Django Star Admin - Seed provided by AppSeed.](https://user-images.githubusercontent.com/51070104/142849749-130c06e2-9ebc-4c48-84c7-d35fe1ae26b3.gif)
 {% endif %} 
 
 <br />
