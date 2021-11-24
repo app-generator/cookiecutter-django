@@ -14,6 +14,10 @@
 
 <br />
 
+![Django Cookie-Cutter - Open-source generator provided by AppSeed.](https://user-images.githubusercontent.com/51070104/143268330-4da45053-f241-4d82-ba0f-03930e35834a.jpg)
+
+<br />
+
 > Project Customization:
 
 - Project information: `name`, `author`, `email`
@@ -32,10 +36,6 @@
 - [Django Dashboards](https://appseed.us/admin-dashboards/django) - index provided by AppSeed
 - [Open-Source Dashboards](https://appseed.us/admin-dashboards/open-source) - crafted in **Flask**, **Django**, [React](https://appseed.us/apps/react)
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
-
-<br />
-
-![Django Bootstrap 5 Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-volt/master/media/django-dashboard-volt-intro.gif)
 
 <br />
 
